@@ -1,0 +1,171 @@
+.body {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  flex: 0.6;
+  color: black;
+  padding: 30px;
+  background: rgb(245, 246, 255);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(245, 246, 255, 1) 5%,
+    rgba(216, 218, 238, 1) 85%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(245, 246, 255, 1) 5%,
+    rgba(216, 218, 238, 1) 85%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(245, 246, 255, 1) 5%,
+    rgba(216, 218, 238, 1) 85%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5f6ff",endColorstr="#d8daee",GradientType=1);
+
+  overflow-y: overlay;
+}
+.body::-webkit-scrollbar {
+  display: none;
+}
+.body__info {
+  object-fit: contain;
+  display: flex;
+  align-items: flex-end;
+  width: 600px;
+  height: 200px;
+  border-radius: 30px;
+  background-size: cover;
+  padding: 10px;
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 5%,
+    rgba(34, 34, 34, 0.6699054621848739) 85%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 5%,
+    rgba(34, 34, 34, 0.6699054621848739) 85%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 5%,
+    rgba(34, 34, 34, 0.6699054621848739) 85%
+  );
+}
+.body__infoText {
+  flex: 1;
+}
+.body__infoText > h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.body__infoText > p {
+  font-size: 14px;
+}
+.body__info > img {
+  height: 20vw;
+  margin: 0 20px;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+.body__icons {
+  display: flex;
+  align-items: center;
+}
+.body__icons > .MuiSvgIcon-root {
+  margin-right: 20px;
+}
+.body__shuffle {
+  font-size: 80px !important;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.body__shuffle:hover {
+  transition: 100ms transform ease-in;
+  transform: scale(1.08);
+}
+
+.body__songs {
+  z-index: 1;
+  margin: 20px -30px;
+}
+.playlist_name {
+  display: flex;
+  margin-left: 60px;
+  padding-bottom: 15px;
+  font-weight: 900;
+}
+
+.play-button {
+  width: 105px;
+  height: 43px;
+  margin-right: 20px;
+  margin-left: 10px;
+  background-color: black;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease-in-out;
+}
+.play-button:hover {
+  background-color: white;
+  color: black !important;
+}
+.follow-button {
+  width: 105px;
+  height: 43px;
+  border: 2px solid black;
+  background-color: transparent;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  color: black;
+  font-size: 1.2rem;
+}
+.follow-button:hover {
+  background-color: white !important;
+  color: black !important;
+  border: none !important;
+}
+.body__infoText strong {
+  display: flex;
+  position: relative;
+  bottom: 18px;
+  margin-left: 20px;
+}
+.body__infoText h2 {
+  width: 250px;
+  position: relative;
+  bottom: 10px;
+  font-size: 40px;
+  margin-left: 10px;
+}
+.hot {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  color: #b3b0bd;
+}
+.fire {
+  color: red;
+}
+.contain {
+  cursor: pointer;
+  margin-left: 20px;
+
+  margin-bottom: 20px;
+}
+.contain h1 {
+  font-weight: bolder;
+}
+.add {
+  cursor: pointer;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 496px;
+  top: 60px;
+}

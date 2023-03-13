@@ -1,0 +1,9 @@
+.sidebarleft {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  background-color: #d8daed;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 230px;
+}

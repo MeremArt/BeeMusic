@@ -1,0 +1,44 @@
+.footer {
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  bottom: 15px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  height: 65px;
+  width: 50%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.footer__center {
+  flex: 0.4;
+  padding: 0 100px;
+  color: #15111f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 300px;
+}
+.footer__right {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #adacae;
+}
+
+.footer__green {
+  color: #adacae;
+}
+
+.footer__icon:hover,
+.footer__green:hover {
+  transition: transform 0.2 ease-in;
+  transform: scale(1.2) !important;
+}
+.footer__right * .MuiSlider-root {
+  color: #413f49;
+}
